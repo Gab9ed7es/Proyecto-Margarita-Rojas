@@ -34,6 +34,10 @@ li a.active, li a:hover{
     color: #b50912;
     transition: 1s;
 }
+main{
+    width: 100%;
+    height: 100%;
+}
 .inicio{
     width: 100%;
     height: 600px;
@@ -172,25 +176,28 @@ h2 {
 .habilidades ul li i {
     color: #b50912;
 }
-.mis_trabajos {
-    padding-right: 50px;
-}
 .menu-trabajos{
-    height: 150px;
-    width: 100%;
+    width: auto;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
-.menu-trabajos ul{
+.menu1{
+    padding-top: 40px;
+    padding-right: 900px;
+}
+.menu2 ul{
     display: flex;
     position: relative;
     justify-content: center;
-
 }
-.menu-trabajos ul li{
+.menu2 ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
-.menu-trabajos ul li a{
+.menu2 ul li a{
     color: #1c1c1b;
     display: block;
     padding: 7px 13px;
@@ -199,110 +206,156 @@ h2 {
     font-size: 16px;
     font-weight: 500;
 }
-.rectangulos1{
+.mis-trabajos-escritos{
     width: 100%;
-    height: 90vh;
     display: grid;
-    grid-template-rows: 3fr 3fr;
-    grid-template-columns: 2fr 2fr;
-    column-gap: 50px;
-    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
 }
 .caja1{
     width: auto;
     height: auto;
 }
-.escrito-1{
+.escrito1{
     justify-self: end;
-}
-.escrito-1 img{
-    width: auto;
-    height: auto;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
     border-radius: 65px;
 }
-.escrito-2{
-    justify-self: start;
-}
-.escrito-2 img{
-    width: auto;
-    height: auto;
-    border-radius: 65px;
-}
-.escrito-3{
-    justify-self: end;
-}
-.escrito-3 img{
-    width: auto;
-    height: auto;
-    border-radius: 65px;
-}
-.escrito-4{
-    justify-self: start;
-}
-.escrito-4 img{
-    width: auto;
-    height: auto;
-    border-radius: 65px;
-}
-.rectangulos2{
+.escrito1 img{
     width: 100%;
-    height: 90vh;
+    height: 100%;
+    border-radius: 60px;
+}
+.escrito2{
+    justify-self: start;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
+    border-radius: 65px;
+}
+.escrito2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.escrito3{
+    justify-self: end;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
+    border-radius: 65px;
+}
+.escrito3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.escrito4{
+    justify-self: start;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
+    border-radius: 65px;
+}
+.escrito4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.mis-trabajos-podcasts{
+    width: 100%;
     display: grid;
-    grid-template-rows: 3fr 3fr;
-    grid-template-columns: 2fr 2fr;
-    row-gap: 36px;
-    column-gap: 50px;
-    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
 }
 .caja2{
     width: auto;
-    height: auto;
 }
-.podcast-1{
+.podcast1{
     justify-self: end;
-}
-.podcast-1 img{
-    width: auto;
-    height: auto;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
     border-radius: 65px;
 }
-.podcast-2{
+.podcast1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.podcast2{
     justify-self: start;
-}
-.podcast-2 img{
-    width: auto;
-    height: auto;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
     border-radius: 65px;
 }
-.podcast-3{
+.podcast2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.podcast3{
     justify-self: end;
-}
-.podcast-3 img{
-    width: auto;
-    height: auto;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
     border-radius: 65px;
 }
-.podcast-4{
+.podcast3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.podcast4{
     justify-self: start;
-}
-.podcast-4 img{
-    width: auto;
-    height: auto;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
     border-radius: 65px;
 }
-.podcast-5{
+.podcast4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.podcast5{
     justify-self: end;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
+    border-radius: 60px;
 }
-.podcast-5 img{
-    width: auto;
-    height: auto;
-    border-radius: 65px;
+.podcast5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
 }
-.podcast-6{
+.podcast6{
     justify-self: start;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
+    border-radius: 60px;
 }
-.podcast-6 img{
+.podcast6 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+.mis-trabajos-multimedia{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 30px;
+}
+.caja3{
     width: auto;
-    height: auto;
+}
+.multimedia{
+    justify-self: center;
+    background-color: #1c1c1b;
+    border: #1c1c1b solid 3px;
     border-radius: 65px;
+}
+.multimedia img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
 }

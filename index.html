@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/2335a07db9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,7 +23,6 @@
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sobre_mi">Sobre mi</a></li>
-                    <li><a href="#diseño_e_ilustracion">Diseño e ilustración</a></li>
                     <li><a href="#escritos">Trabajos Escritos</a></li>
                     <li><a href="#podcasts">Trabajos Podcasts</a></li>
                     <li><a href="#multimedia">Trabajos Multimedia</a></li>
@@ -39,9 +38,9 @@
                     <div class="presentacion1"><p>Hola soy,</p></div>
                     <div class="presentacion2"><p>Margarita Rosa Rojas Torres</p></div>
                     <div class="presentacion3"><p>Comunicadora social y periodista colombiana</p></div>
-                    <div class="presentacion4"><button class="boton_inicio"><p>Contactar</p></button></div>
+                    <div class="presentacion4"><a href="#contacto-container" class="boton_inicio"><p>Contactar</p></a></div>
                 </div>
-                <div class="img"><img class="img1" src="img/perfil.jpg"></div>
+                <div class="img-profile"><img src="img/profile-photo.png"></div>
             </div>
         </section>
 
@@ -115,7 +114,8 @@
                 </ul>
             </div>
         </section>
-        <section>
+
+        <section class="container-rosa-wraper">
             <div class="container-rosa">
                 <div class="titulo-trabajos-container">
                     <p>Escritos</p>
@@ -128,28 +128,31 @@
                     <img src="img/ajuste_nov.png" class="img-trabajos"/>
                 </div>
             </div>
-            
             <div class="container-rosa">
                 <div class="titulo-trabajos-container">
                     <p>Podcasts</p>
-                    <a href="#">Ver más<img src="img/Vector.png"/></a>
+                    <div>
+                        <a href="#" class="link-vector">Ver más</a>
+                        <img src="img/Vector.png"/>
+                    </div>
                 </div>
                 <div>
                     <img src="img/desalojo.png" class="img-trabajos"/>
                 </div>
             </div>
-
             <div class="container-rosa">
                 <div class="titulo-trabajos-container">
                     <p>Multimedia</p>
-                    <a href="#">Ver más<img src="img/Vector.png"/></a>
+                    <div>
+                        <a href="#" class="link-vector">Ver más</a>
+                        <img src="img/Vector.png"/>
+                    </div>
                 </div>
                 <div>
                     <img src="img/postal.png" class="img-trabajos"/>
                 </div>
             </div> 
         </section>
-
 
         <section class="trabajos">
             <h2>Mis trabajos</h2>
@@ -226,22 +229,34 @@
             </section>
         </section>
 
-        <section class="contacto-container">
+        <section id="contacto-container" class="contacto-container">
             <div class="contacto-info">
                 <div class="contacto-titulos">
                     <h3>¡Trabajemos juntxs!</h3>
                     <p>Cuéntame qué tienes en mente, Completa este formulario o envía un mail a margaritarojast108@gmail.com que te contestaremos a la brevedad.</p>
                 </div>
-                <form class="form-container">
-                    <input />
-                    <input />
-                    <input />
+                <form>
+                    <input type="text" name="fname" placeholder="Nombre"/>
+                    <input type="text" name="email" placeholder="Email"/>
+                    <textarea name="msg" placeholder="Escribenos de tu proyecto o idea"></textarea>
+                    <input type="submit" value="Enviar">
                 </form>
             </div>
-
             <div>
                 <img src="img/image_contact.png"/>
             </div>
         </section>
+
+        <footer>
+            <h3>¿Algún proyecto en mente?</h3>
+            <p>Trabajemos juntxs para darte lo que necesitas.</p>
+            <ul  class="footer-icon-container">
+                <a href="https://www.tiktok.com/@magarojita " target="_blank"><img src="img/tiktok-icon.png"/></a>
+                <a href="https://www.instagram.com/magadepapel/" target="_blank"><img src="img/insta-icon.png"/></a>
+                <a href="https://www.behance.net/margaritarojas1" target="_blank"><img src="img/be-icon.png"/></a>
+                <a href="https://twitter.com/magadeotrolado" target="_blank"><img src="img/tw-icon.png"/></a>
+            </ul>
+        </footer>
+
     </main>
 </body>

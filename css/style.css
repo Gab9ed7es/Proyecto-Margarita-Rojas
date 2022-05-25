@@ -811,6 +811,9 @@ footer{
         width: 44.67px;
         height: 26.2px;
     }
+    .container-rosa {
+        width: 100%;
+    }
     .subtitulo {
         font-size: 15px;
     }
@@ -984,7 +987,7 @@ footer{
         width: 100%;
     }
     .container-rosa {
-        width: 720px;
+        width: 100%;
     }
     .titulo-trabajos-container p{
         font-size: 20px;
@@ -1194,7 +1197,7 @@ footer{
         width: 100%;
     }
 }
-@media (min-width: 360px) and (max-width: 540px){
+@media (min-width: 350px) and (max-width: 540px){
     .checkbtn{
         display: block;
     }

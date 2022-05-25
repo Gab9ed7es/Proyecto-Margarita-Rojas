@@ -1197,7 +1197,7 @@ footer{
         width: 100%;
     }
 }
-@media (min-width: 300px) and (max-width: 540px){
+@media (min-width: 260px) and (max-width: 540px){
     .checkbtn{
         display: block;
     }

@@ -295,43 +295,6 @@ h2 {
     width: 54.67px;
     height: 36.2px;
 }
-/*.servicios-container {
-    display: flex;
-    justify-content: center;
-}
-.grid-container-servicios {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 50px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.icon-servicio-container {
-    display: flex;
-    padding: 20px;
-}
-.icon-img-servicios {
-    width: 70px;
-    height: 70px;
-    margin-right: 20px ;
-}
-.icon-img-mic {
-    width: 43px;
-    height: 57px;
-    margin-right: 45px;
-}
-.icon-img-cam {
-    width: 54.19px;
-    height: 46.91px;
-    margin-right: 35px;
-}
-.icon-img-video {
-    width: 54.67px;
-    height: 36.2px;
-    margin-right: 35px;
-}*/
 .numero-container {
     margin-left: 10px;
 }
@@ -854,6 +817,12 @@ footer{
     h3 {
         font-size: 20px;
     }
+    .capa{
+        opacity: 1;
+    }
+    .capa h2{
+        font-size: 25px;
+    }
     .pie-de-pagina{
          height: 240px;
     }
@@ -977,12 +946,17 @@ footer{
         width: 44.67px;
         height: 26.2px;
     }
-    .su
     .subtitulo {
         font-size: 12px;
     }
     h3 {
         font-size: 16px;
+    }
+    .capa{
+        opacity: 1;
+    }
+    .capa h2{
+        font-size: 18px;
     }
     .pie-de-pagina{
          height: 230px;
@@ -1129,6 +1103,12 @@ footer{
     }
     h3 {
         font-size: 12px;
+    }
+    .capa{
+        opacity: 1;
+    }
+    .capa h2{
+        font-size: 13px;
     }
     .pie-de-pagina{
          height: 220px;
@@ -1278,6 +1258,12 @@ footer{
         font-size: 8px;
     }
     h3 {
+        font-size: 10px;
+    }
+    .capa{
+        opacity: 1;
+    }
+    .capa h2{
         font-size: 10px;
     }
     .pie-de-pagina{

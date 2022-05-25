@@ -842,6 +842,10 @@ footer{
     .pie-2 p{
          font-size: 16px;    
     }
+    .contacto-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -980,8 +984,6 @@ footer{
     .contacto-container {
         display: flex;
         flex-direction: column-reverse;
-        height: 90%;
-        justify-content: space-between;
     }
     .contacto-container img {
         width: 100%;
@@ -1197,7 +1199,7 @@ footer{
         width: 100%;
     }
 }
-@media (min-width: 260px) and (max-width: 540px){
+@media (min-width: 300px) and (max-width: 540px){
     .checkbtn{
         display: block;
     }

@@ -187,6 +187,7 @@ h2 {
 }
 .habilidades {
     display: flex;
+    width: 40%;
     margin-top: 100px;
 }
 .habilidades li {
@@ -590,7 +591,6 @@ line-height: 30px;
     padding: 0 45px;
 }
 .contacto-info {
-    width: 500px;
     height: 1033px;
     padding: 0 96px;
 }
@@ -731,7 +731,7 @@ footer{
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 1128px) and (max-width: 1439px){
+@media (min-width: 1024px) and (max-width: 1439px){
     nav ul li a{
         font-size: 14px;
     }
@@ -841,14 +841,14 @@ footer{
     }
 }
 
-@media (min-width: 768px) and (max-width: 1128px){
+@media (min-width: 768px) and (max-width: 1024px){
     .checkbtn{
         display: block;
     }
-    ul{
+    nav ul{
         position: fixed;
         width: 100%;
-        height: auto;
+        height: 100%;
         background: #f9d1d1;
         top: 80px;
         left: -110%;
@@ -974,12 +974,44 @@ footer{
     .pie-2 p{
          font-size: 13px;    
     }
+    .contacto-container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90%;
+        justify-content: space-between;
+    }
+    .contacto-container img {
+        width: 100%;
+    }
+    .container-rosa {
+        width: 720px;
+    }
+    .titulo-trabajos-container p{
+        font-size: 20px;
+    }
+    .titulo-trabajos-container a{
+        font-size: 15px;
+    }
+    .titulo-trabajos-container img{
+        width: 15px;
+    }
+    .img-trabajos {
+        top: 50px;
+        width: 400px;
+    }
+    .contact-info {
+        height: 900px;
+        margin-top: 20px;
+    }
+    input, textarea {
+        width: 100%;
+    }
 }
-@media (min-width: 520px) and (max-width: 768px){
+@media (min-width: 540px) and (max-width: 768px){
     .checkbtn{
         display: block;
     }
-    ul{
+     nav ul{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -995,7 +1027,7 @@ footer{
         line-height: 30px;
     }
     nav ul li a{
-        font-size: 10px;
+        font-size: 20px;
     }
     li a:hover, li a.active{
         background: none;
@@ -1041,6 +1073,7 @@ footer{
     }
     .habilidades {
         margin-top: 40px;
+        width: 50%;
     }
     .habilidades li {
         font-size: 10px;
@@ -1129,9 +1162,39 @@ footer{
     }
     .footer-icon-container img {
          padding: 10px;
-    }  
+    }
+    .contacto-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contacto-container img {
+        width: 100%;
+    }
+    .container-rosa {
+        width: auto;
+    }
+    .titulo-trabajos-container p{
+        font-size: 16px;
+    }
+    .titulo-trabajos-container a{
+        font-size: 13px;
+    }
+    .titulo-trabajos-container img{
+        width: 13px;
+    }
+    .img-trabajos {
+        top: 50px;
+        width: 400px;
+    }
+    .contact-info {
+        height: 700px;
+        margin-top: 20px;
+    }
+    input, textarea {
+        width: 100%;
+    }
 }
-@media (min-width: 100px) and (max-width: 520px){
+@media (min-width: 360px) and (max-width: 540px){
     .checkbtn{
         display: block;
     }
@@ -1184,7 +1247,7 @@ footer{
     }
     .sobre_mi {
         display: flex;
-        margin-top: 30px;
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -1196,10 +1259,11 @@ footer{
         font-size: 20px;
     }
     .habilidades {
+        width: 50%;
         margin-top: 30px;
     }
     .habilidades li {
-        font-size: 8px;
+        font-size: 10px;
     }
     .mis-servicios{
         width: 100%;
@@ -1285,5 +1349,35 @@ footer{
     }
     .footer-icon-container img {
          padding: 10px;
-    }       
-}
+    } 
+    .contacto-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contacto-container img {
+        width: 100%;
+    }
+    .container-rosa {
+        width: 100%;
+    }
+    .titulo-trabajos-container p{
+        font-size: 16px;
+    }
+    .titulo-trabajos-container a{
+        font-size: 13px;
+    }
+    .titulo-trabajos-container img{
+        width: 13px;
+    }
+    .img-trabajos {
+        top: 50px;
+        width: 300px;
+    }
+    .contact-info {
+        height: 500px;
+        margin-top: 20px;
+    }
+    input, textarea {
+        width: 100%;
+    }
+}      

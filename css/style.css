@@ -1382,6 +1382,7 @@ footer{
          padding: 10px;
     } 
     .contacto-container {
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
     }

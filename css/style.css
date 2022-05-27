@@ -766,6 +766,7 @@ footer{
     .sobre_mi {
         display: flex;
         margin-top: 50px;
+        padding-left: 0%;
         flex-direction: column;
         align-items: center;
     }
@@ -915,6 +916,7 @@ footer{
     .sobre_mi {
         display: flex;
         margin-top: 50px;
+        padding-left: 0%;
         flex-direction: column;
         align-items: center;
     }
@@ -1085,6 +1087,7 @@ footer{
     .sobre_mi {
         display: flex;
         margin-top: 40px;
+        padding-left: 0%;
         flex-direction: column;
         align-items: center;
     }
@@ -1273,7 +1276,7 @@ footer{
     .sobre-mi-2{
         width: 80%;
         display: flex;
-
+        
     }
     .sobre_mi {
         display: flex;
